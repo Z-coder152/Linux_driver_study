@@ -1,0 +1,1 @@
+cmd_/home/yhai/My_process_test/non_block_test/driver.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o /home/yhai/My_process_test/non_block_test/driver.ko /home/yhai/My_process_test/non_block_test/driver.o /home/yhai/My_process_test/non_block_test/driver.mod.o ;  true

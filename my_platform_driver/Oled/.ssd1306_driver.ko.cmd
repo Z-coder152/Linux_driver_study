@@ -1,0 +1,1 @@
+cmd_/home/yhai/my_platform_driver/Oled/ssd1306_driver.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o /home/yhai/my_platform_driver/Oled/ssd1306_driver.ko /home/yhai/my_platform_driver/Oled/ssd1306_driver.o /home/yhai/my_platform_driver/Oled/ssd1306_driver.mod.o ;  true

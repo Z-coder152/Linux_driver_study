@@ -1,0 +1,1 @@
+cmd_/home/yhai/my_platform_driver/3.6.2_sys/led_sys.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o /home/yhai/my_platform_driver/3.6.2_sys/led_sys.ko /home/yhai/my_platform_driver/3.6.2_sys/led_sys.o /home/yhai/my_platform_driver/3.6.2_sys/led_sys.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_/home/yhai/my_platform_driver/Key_interrupt_pro/key_irq_pro.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o /home/yhai/my_platform_driver/Key_interrupt_pro/key_irq_pro.ko /home/yhai/my_platform_driver/Key_interrupt_pro/key_irq_pro.o /home/yhai/my_platform_driver/Key_interrupt_pro/key_irq_pro.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_/home/yhai/my_platform_driver/zhan_led_gpiod/zhan_led_gpiod.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o /home/yhai/my_platform_driver/zhan_led_gpiod/zhan_led_gpiod.ko /home/yhai/my_platform_driver/zhan_led_gpiod/zhan_led_gpiod.o /home/yhai/my_platform_driver/zhan_led_gpiod/zhan_led_gpiod.mod.o ;  true

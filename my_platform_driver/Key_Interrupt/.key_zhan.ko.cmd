@@ -1,0 +1,1 @@
+cmd_/home/yhai/my_platform_driver/Key_Interrupt/key_zhan.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o /home/yhai/my_platform_driver/Key_Interrupt/key_zhan.ko /home/yhai/my_platform_driver/Key_Interrupt/key_zhan.o /home/yhai/my_platform_driver/Key_Interrupt/key_zhan.mod.o ;  true
