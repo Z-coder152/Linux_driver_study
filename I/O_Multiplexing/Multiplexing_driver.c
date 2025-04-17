@@ -101,8 +101,7 @@ static unsigned int dev_poll(struct file *filp, poll_table *wait)
 {
 	unsigned int mask = 0;
 
-	poll_wait(filp, &queue, wait);  /*把设备(filp) 添加到设备监控列表(wait)
-  当有多个设备添加到poll_table，表示可以同时监控多个驱动设备的变化
+	poll_wait(filp, &queue, wait);  /*
   当设备有数据时，会唤醒再其等待队列上等待的所有进程，去执行。
   这实现了，多对多，poll_table里存放多个设备，等待队列里，存放访问设备的多个任务。
   poll_wait函数并不阻塞， 真正的阻塞动作是在poll系统调用中完成
